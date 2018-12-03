@@ -1,0 +1,142 @@
+#body{
+  height: 700px;
+  width:100%;
+  background-size:cover;
+}
+h {
+  font-family: 'Bowlby One', regular;
+  font-size: 1.8em;
+  color: rgb(47, 53, 78); 
+}
+h2 {
+  font-family: 'Bowlby One', regular;
+  font-size: 2.5em;
+  color: rgb(32, 34, 41); 
+}
+p {
+  font-size: 1.1em;
+  color: rgb(3, 3, 3);
+}
+img.banner1 {
+  width: 100%;
+  height: 250px;
+  padding-right: 253px;
+  padding-left: 253px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+img.banner2 {
+  width: 100%;
+  height: 100px;
+  padding-top: 0px;
+  padding-right: 253px;
+  padding-left: 253px;
+}
+img.self {
+  padding-right: 20px;
+  padding-left: 0px;
+  float: left;
+}
+img.thumb2 {
+  width: 50%;
+  height: 50%;
+  padding-right: 0px;
+  padding-left: 20px;
+  float: right;
+}
+img.icon {
+  width: 100%;
+  height: 100%;
+}
+.portfolio {
+  padding-right: 240px;
+  padding-left: 240px;
+  padding-bottom: 308px;
+}
+.text{
+	float: right;
+  padding-right: 253px;
+  padding-left: 253px;
+  padding-bottom: 20px;
+}
+.card-body {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+
+/*THINGS I DIDN'T CODE ON MY OWN...ran outta time*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /*Full width */
+  padding: 12px; /* text box space padding */  
+  border: 1px solid rgb(51, 50, 126); /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  /* Controls how close the letters of sections are to eachother */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the userto vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(122, 132, 175);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button,add a darker green color */
+input[type=submit]:hover {
+  background-color: #1e3368;
+}
+
+/* Add a background color and somepadding around the form */
+.contact {
+
+  padding-top: 20px;
+  padding-right: 253px;
+  padding-left: 253px;
+} 
+
+
+
+/*NAVIGATION BAR*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(34, 30, 30);
+  padding-left: 172px;
+}
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+li .active {
+  background-color: #4CAF50;
+}
+
+
+/*END OF NAVIGATION BAR*/
