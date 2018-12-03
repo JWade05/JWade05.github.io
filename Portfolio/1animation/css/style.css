@@ -61,10 +61,21 @@ img.banner2 {
   padding-left: 253px;
   width: 100%;
 }
+.row2{
+  padding-right: 253px;
+  padding-left: 253px;
+  width: 50%;
+}
 .column {
   float: left;
   width: 50%;
   padding: 5px;
+}
+.row3{
+  padding-right: 253px;
+  padding-left: 253px;
+  width: 100%;
+  padding-bottom: 370px;
 }
 
 /* Clear floats after image containers */
